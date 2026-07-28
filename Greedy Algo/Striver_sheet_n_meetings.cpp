@@ -10,7 +10,7 @@ public:
         vector<int> res ; 
         int lastend = INT_MIN ; 
 
-        for(auto& x : meetings){
+        for(auto& x : meetings){ 
             int e = get<0>(x); 
             int s = get<1>(x); 
             int index = get<2>(x); 
@@ -24,6 +24,6 @@ public:
 
         }
 
-        return res ; 
+        return res ;
     }
 };
